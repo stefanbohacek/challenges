@@ -46,17 +46,5 @@
     ],
     "day": 4,
     "tags": ["music"]
-  },
-  {
-    "name": "The DS106 Daily Create",
-    "description": "small daily creative challenges in photography, drawing, audio, video, and writing",
-    "links": [
-      {
-        "title": "daily.ds106.us",
-        "url": "https://daily.ds106.us/"
-      }
-    ],
-    "day": 0,
-    "tags": ["photography", "drawing", "audio", "video", "writing"]
   }
 ]
