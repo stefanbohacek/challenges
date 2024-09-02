@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Blaugust",
+    "description": "write a blog post every day, and other challenges",
+    "links": [
+      {
+        "title": "aggronaut.com/2023/07/12/blaugust-2023-is-coming",
+        "url": "https://aggronaut.com/2023/07/12/blaugust-2023-is-coming/"
+      }
+    ],
+    "month": 8,
+    "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "Jamuary",
+    "description": "create and share a song every day",
+    "links": [
+      {
+        "title": "jonathanmann.net/jamuary",
+        "url": "https://www.jonathanmann.net/jamuary"
+      }
+    ],
+    "month": 1,
+    "tags": ["music"]
+  },
+  {
+    "name": "Looptober",
+    "description": "make a music loop every day",
+    "links": [
+      {
+        "title": "looptober.com",
+        "url": "https://looptober.com"
+      }
+    ],
+    "month": 10,
+    "tags": ["music"]
+  },
+  {
+    "name": "NaBoMaMo",
+    "description": "a month-long celebration of non-commercial botmaking",
+    "links": [
+      {
+        "title": "github.com/tullyhansen/NaBoMaMo",
+        "url": "https://github.com/tullyhansen/NaBoMaMo"
+      }
+    ],
+    "month": 11,
+    "tags": ["bots", "coding"]
+  },
+  {
+    "name": "NaNoWriMo",
+    "description": "draft an entire novel in just one month",
+    "links": [
+      {
+        "title": "nanowrimo.org",
+        "url": "https://nanowrimo.org/national-novel-writing-month"
+      }
+    ],
+    "month": 11,
+    "tags": ["writing"]
+  },
+  {
+    "name": "Inktober",
+    "description": "a challenge to improve your inking skills",
+    "links": [
+      {
+        "title": "inktober.com",
+        "url": "https://inktober.com/"
+      },
+      {
+        "title": "Inktober Alternatives",
+        "url": "https://brushwarriors.com/inktober-alternatives/"
+      }
+    ],
+    "month": 10,
+    "tags": ["drawing", "inking", "art"]
+  },
+  {
+    "name": "NaNoGenMo",
+    "description": "write code that generates a novel of 50k+ words",
+    "links": [
+      {
+        "title": "nanogenmo.github.io",
+        "url": "https://nanogenmo.github.io/"
+      }
+    ],
+    "month": 11,
+    "tags": ["coding"]
+  },
+  {
+    "name": "#30DayMapChallenge",
+    "description": "create maps based on daily themes",
+    "links": [
+      {
+        "title": "30daymapchallenge.com",
+        "url": "https://30daymapchallenge.com/"
+      }
+    ],
+    "month": 11,
+    "tags": ["maps"]
+  },
+  {
+    "name": "Mapvember",
+    "description": "draw fictional maps for roleplaying games",
+    "links": [
+      {
+        "title": "miskasmaps.com/mapvember",
+        "url": "https://www.miskasmaps.com/mapvember/"
+      }
+    ],
+    "month": 11,
+    "tags": ["maps", "drawing", "art"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "",
+        "url": "URL"
+      }
+    ],
+    "month": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "",
+        "url": "URL"
+      }
+    ],
+    "month": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "",
+        "url": "URL"
+      }
+    ],
+    "month": 0,
+    "tags": ["tag1"]
+  }
+]

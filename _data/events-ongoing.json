@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ongoing event #1",
+    "description": "DESCRIPTION",
+    "url": "URL",
+    "tags": ["tag1"]
+  },
+  {
+    "name": "Ongoing event #2",
+    "description": "DESCRIPTION",
+    "url": "URL",
+    "tags": ["tag1"]
+  },
+  {
+    "name": "Ongoing event #3",
+    "description": "DESCRIPTION",
+    "url": "URL",
+    "tags": ["tag1"]
+  },
+  {
+    "name": "Ongoing event #4",
+    "description": "DESCRIPTION",
+    "url": "URL",
+    "tags": ["tag1", "tag2"]
+  }
+]

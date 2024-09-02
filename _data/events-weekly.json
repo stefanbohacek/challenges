@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Makeover Monday",
+    "description": "weekly data visualization challenges",
+    "links": [
+      {
+        "title": "makeovermonday.co.uk",
+        "url": "https://makeovermonday.co.uk/"
+      }
+    ],
+    "day": 1,
+    "tags": ["data", "dataviz"]
+  },
+  {
+    "name": "Tidy Tuesday",
+    "description": "learn data science in the real world",
+    "links": [
+      {
+        "title": "tidytuesday.com",
+        "url": "https://www.tidytuesday.com/"
+      }
+    ],
+    "day": 2,
+    "tags": ["data"]
+  },
+  {
+    "name": "Music Weeklies Challenge",
+    "description": "compose a brand new original song in keeping with the theme and constraints",
+    "links": [
+      {
+        "title": "musicweeklieschallenge.com",
+        "url": "https://www.musicweeklieschallenge.com/"
+      }
+    ],
+    "day": 5,
+    "tags": ["music"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  },
+  {
+    "name": "NAME",
+    "description": "DESCRIPTION",
+    "links": [
+      {
+        "title": "TITLE",
+        "url": "URL"
+      }
+    ],
+    "day": 0,
+    "tags": ["tag1"]
+  }
+]
