@@ -43,6 +43,9 @@ eleventyNavigation:
   <li>
     <a href="#weekly-events">Weekly events</a>
   </li>
+  <li>
+    <a href="#ongoing-events">Ongoing events</a>
+  </li>
 </ul>
 
 <div>
@@ -78,4 +81,14 @@ eleventyNavigation:
     </ul>
   </div>
   {% endfor %}
+<h2 id="ongoing-events" class="mt-5 sticky-top bg-body">Ongoing events</h2>
+  <ul>
+    {% for event in events.ongoing %}
+    <li>
+      <strong>{{ event.name }}</strong>: {{ event.description}}
+      {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
+      <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

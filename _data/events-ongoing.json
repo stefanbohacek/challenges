@@ -1,26 +1,13 @@
 [
   {
-    "name": "Ongoing event #1",
-    "description": "DESCRIPTION",
-    "url": "URL",
-    "tags": ["tag1"]
-  },
-  {
-    "name": "Ongoing event #2",
-    "description": "DESCRIPTION",
-    "url": "URL",
-    "tags": ["tag1"]
-  },
-  {
-    "name": "Ongoing event #3",
-    "description": "DESCRIPTION",
-    "url": "URL",
-    "tags": ["tag1"]
-  },
-  {
-    "name": "Ongoing event #4",
-    "description": "DESCRIPTION",
-    "url": "URL",
-    "tags": ["tag1", "tag2"]
+    "name": "Glitch Code Jams",
+    "description": "create web projects based on a monthly prompt",
+    "links": [
+      {
+        "title": "glitch.com/jams",
+        "url": "https://glitch.com/jams/"
+      }
+    ],
+    "tags": ["coding"]
   }
 ]
