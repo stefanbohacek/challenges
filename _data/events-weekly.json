@@ -36,16 +36,16 @@
     "tags": ["music"]
   },
   {
-    "name": "NAME",
-    "description": "DESCRIPTION",
+    "name": "Disquiet Junto",
+    "description": "weekly, fast-turnaround projects to compose, record, and share new music",
     "links": [
       {
-        "title": "TITLE",
-        "url": "URL"
+        "title": "Disquiet Junto F.A.Q.",
+        "url": "https://disquiet.com/2013/04/25/disquiet-junto-faq/"
       }
     ],
-    "day": 0,
-    "tags": ["tag1"]
+    "day": 4,
+    "tags": ["music"]
   },
   {
     "name": "NAME",
