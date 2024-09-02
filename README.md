@@ -1,8 +1,6 @@
-# Project name
+# Recurring creative challenges
 
-<img width="500" src="public/images/thumbnail.png" alt="ALT_TEXT">
-
-
+<img width="500" src="public/images/thumbnail.png" alt="The text 'Recurring creative challenges' written in dark color on a light background.">
 
 ## Development
 
