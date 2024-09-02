@@ -11,7 +11,9 @@ eleventyNavigation:
 
 # {{ title }}
 
-This site is currently maintained by [Stefan Bohacek](https://stefanbohacek.com). Here's how to get in touch:
+Recurring monthly and weekly challenges are a great way to learn or improve a new skill, and find a community of people with shared interests. [Read more about my own experience on my blog.](https://stefanbohacek.com/project/recurring-creative-challenges/)
+
+This site is currently maintained by me, its creator, [Stefan Bohacek](https://stefanbohacek.com). Here's how to get in touch:
 
 - reach out to [@stefan](https://stefanbohacek.online/@stefan) on Mastodon
 - send an email to [stefan@stefanbohacek.com](mailto:stefan@stefanbohacek.com)
