@@ -9,5 +9,16 @@
       }
     ],
     "tags": ["coding"]
+  },
+  {
+    "name": "#100DaysOfCode",
+    "description": "spend at least an hour coding for the next 100 days",
+    "links": [
+      {
+        "title": "100daysofcode.com",
+        "url": "https://www.100daysofcode.com/"
+      }
+    ],
+    "tags": ["coding"]
   }
 ]
