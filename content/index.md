@@ -50,18 +50,26 @@ eleventyNavigation:
 
 <div>
   <h2 id="monthly-events" class="mt-5 sticky-top bg-body">Monthly events</h2>
+
+
+
+
   {% for month in events.monthly %}
   <div>
     <h3>{{ month[0] }}</h3>
-    <ul>
-      {% for event in month[1] %}
-      <li>
-        <strong>{{ event.name }}</strong>: {{ event.description}}
-        {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
-        <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
-      </li>
-      {% endfor %}
-    </ul>
+      {% if month[1][0] %}
+        <ul>
+          {% for event in month[1] %}
+          <li>
+            <strong>{{ event.name }}</strong>: {{ event.description}}
+            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
+            <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
+          </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-secondary">No events.</p>
+      {% endif %}    
   {% endfor %}
   </div>
 </div>
@@ -70,6 +78,19 @@ eleventyNavigation:
   {% for week in events.weekly %}
   <div>
     <h3>{{ week[0] }}</h3>
+      {% if week[1][0] %}
+        <ul>
+          {% for event in month[1] %}
+          <li>
+            <strong>{{ event.name }}</strong>: {{ event.description}}
+            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
+            <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
+          </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-secondary">No events.</p>
+      {% endif %}    
     <ul>
       {% for event in week[1] %}
       <li>
