@@ -48,75 +48,15 @@
     "tags": ["music"]
   },
   {
-    "name": "NAME",
-    "description": "DESCRIPTION",
+    "name": "The DS106 Daily Create",
+    "description": "small daily creative challenges in photography, drawing, audio, video, and writing",
     "links": [
       {
-        "title": "TITLE",
-        "url": "URL"
+        "title": "daily.ds106.us",
+        "url": "https://daily.ds106.us/"
       }
     ],
     "day": 0,
-    "tags": ["tag1"]
-  },
-  {
-    "name": "NAME",
-    "description": "DESCRIPTION",
-    "links": [
-      {
-        "title": "TITLE",
-        "url": "URL"
-      }
-    ],
-    "day": 0,
-    "tags": ["tag1"]
-  },
-  {
-    "name": "NAME",
-    "description": "DESCRIPTION",
-    "links": [
-      {
-        "title": "TITLE",
-        "url": "URL"
-      }
-    ],
-    "day": 0,
-    "tags": ["tag1"]
-  },
-  {
-    "name": "NAME",
-    "description": "DESCRIPTION",
-    "links": [
-      {
-        "title": "TITLE",
-        "url": "URL"
-      }
-    ],
-    "day": 0,
-    "tags": ["tag1"]
-  },
-  {
-    "name": "NAME",
-    "description": "DESCRIPTION",
-    "links": [
-      {
-        "title": "TITLE",
-        "url": "URL"
-      }
-    ],
-    "day": 0,
-    "tags": ["tag1"]
-  },
-  {
-    "name": "NAME",
-    "description": "DESCRIPTION",
-    "links": [
-      {
-        "title": "TITLE",
-        "url": "URL"
-      }
-    ],
-    "day": 0,
-    "tags": ["tag1"]
+    "tags": ["photography", "drawing", "audio", "video", "writing"]
   }
 ]
