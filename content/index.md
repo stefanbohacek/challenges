@@ -36,39 +36,35 @@ eleventyNavigation:
   </div>
 </div>
 
-<ul>
-  <li>
-    <a href="#monthly-events">Monthly events</a>
-  </li>
-  <li>
-    <a href="#weekly-events">Weekly events</a>
-  </li>
-  <li>
-    <a href="#ongoing-events">Ongoing events</a>
-  </li>
-</ul>
+<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group me-2" role="group" aria-label="First group">
+    <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
+    <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
+    <a href="#ongoing-events" class="btn btn-outline-secondary">Ongoing</a>
+  </div>
+  <div class="input-group">
+    <div class="input-group-text" id="btnGroupAddon">🔎</div>
+    <input id="search-input" type="text" class="form-control" placeholder="Description or #tag">
+  </div>
+</div>
 
 <div>
   <h2 id="monthly-events" class="mt-5 sticky-top bg-body">Monthly events</h2>
-
-
-
-
   {% for month in events.monthly %}
-  <div>
+  <div class="result-section">
     <h3>{{ month[0] }}</h3>
       {% if month[1][0] %}
         <ul>
           {% for event in month[1] %}
-          <li>
+          <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
+            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
           </li>
           {% endfor %}
         </ul>
       {% else %}
-        <p class="text-secondary">No events.</p>
+        <p class="text-secondary result-item">No events.</p>
       {% endif %}    
   {% endfor %}
   </div>
@@ -76,40 +72,33 @@ eleventyNavigation:
 <div>
 <h2 id="weekly-events" class="mt-5 sticky-top bg-body">Weekly events</h2>
   {% for week in events.weekly %}
-  <div>
+  <div class="result-section">
     <h3>{{ week[0] }}</h3>
       {% if week[1][0] %}
         <ul>
-          {% for event in month[1] %}
-          <li>
+          {% for event in week[1] %}
+          <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
+            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
           </li>
           {% endfor %}
         </ul>
       {% else %}
-        <p class="text-secondary">No events.</p>
+        <p class="text-secondary result-item">No events.</p>
       {% endif %}    
+  </div>
+  {% endfor %}
+<h2 id="ongoing-events" class="mt-5 sticky-top bg-body">Ongoing events</h2>
+  <div class="result-section">
     <ul>
-      {% for event in week[1] %}
-      <li>
+      {% for event in events.ongoing %}
+      <li class="result-item">
         <strong>{{ event.name }}</strong>: {{ event.description}}
-        {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
+        {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
         <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
       </li>
       {% endfor %}
     </ul>
   </div>
-  {% endfor %}
-<h2 id="ongoing-events" class="mt-5 sticky-top bg-body">Ongoing events</h2>
-  <ul>
-    {% for event in events.ongoing %}
-    <li>
-      <strong>{{ event.name }}</strong>: {{ event.description}}
-      {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">{{tag}}</sup>{% endfor %}
-      <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
-    </li>
-    {% endfor %}
-  </ul>
 </div>

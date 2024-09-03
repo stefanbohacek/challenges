@@ -1,1 +1,1 @@
-import onReady from"./modules/onReady.js";import backToTop from"./modules/backToTop.js";onReady((()=>{backToTop()}));//# sourceMappingURL=main.js.map
+import onReady from"./modules/onReady.js";import backToTop from"./modules/backToTop.js";import handleSearch from"./modules/handleSearch.js";onReady((()=>{backToTop(),handleSearch()}));//# sourceMappingURL=main.js.map
