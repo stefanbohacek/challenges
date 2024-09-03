@@ -146,5 +146,41 @@
     ],
     "month": 1,
     "tags": ["art", "coding"]
+  },
+  {
+    "name": "Finish What You Started",
+    "description": "finishing existing works in progress from September 1st to October 31st",
+    "links": [
+      {
+        "title": "finishwhatyoustarted-event.tumblr.com",
+        "url": "https://finishwhatyoustarted-event.tumblr.com"
+      }
+    ],
+    "month": 9,
+    "tags": ["general"]
+  },
+  {
+    "name": "Small Web September",
+    "description": "make progress on your small web projects",
+    "links": [
+      {
+        "title": "smallweb.dreamwidth.org",
+        "url": "https://smallweb.dreamwidth.org/2335.html"
+      }
+    ],
+    "month": 9,
+    "tags": ["web", "coding"]
+  },
+  {
+    "name": "Communal Creators",
+    "description": "band together to help each other start, work on, or finish a project in September and October",
+    "links": [
+      {
+        "title": "communal-creators.dreamwidth.org",
+        "url": "https://communal-creators.dreamwidth.org/400.html"
+      }
+    ],
+    "month": 9,
+    "tags": ["general"]
   }
 ]
