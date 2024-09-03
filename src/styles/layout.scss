@@ -1,10 +1,18 @@
-#back-to-top{
+#back-to-top {
   width: 10rem;
   right: 0;
   left: auto;
   padding-left: 0 !important;
 }
 
-.footer-logos{
+.footer-logos {
   max-width: 400px;
+}
+
+h2,
+h3 {
+  &.sticky-top {
+    top: 5.2rem;
+    z-index: 1000;
+  }
 }

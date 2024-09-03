@@ -36,7 +36,7 @@ eleventyNavigation:
   </div>
 </div>
 
-<div class="btn-toolbar mb-3 sticky-top bg-body py-4" role="toolbar" aria-label="Toolbar with button groups">
+<div class="btn-toolbar z-3 mb-3 sticky-top bg-body z-0 py-2 py-4" role="toolbar" aria-label="Toolbar with button groups">
   <div class="btn-group me-2" role="group" aria-label="First group">
     <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
     <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
@@ -49,37 +49,37 @@ eleventyNavigation:
 </div>
 
 <div>
-  <h2 id="monthly-events" class="mt-5">Monthly events</h2>
+  <h2 id="monthly-events" class="mt-5 bg-body">Monthly events</h2>
   {% for month in events.monthly %}
   <div class="result-section">
-    <h3>{{ month[0] }}</h3>
+    <h3 class="sticky-top bg-body z-0 py-2">{{ month[0] }}</h3>
       {% if month[1][0] %}
         <ul>
           {% for event in month[1] %}
           <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup role="button" class="tag-badge badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+            {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
           </li>
           {% endfor %}
         </ul>
       {% else %}
         <p class="text-secondary result-item">No events.</p>
-      {% endif %}    
-  {% endfor %}
+      {% endif %}
   </div>
+  {% endfor %}
 </div>
 <div>
-<h2 id="weekly-events" class="mt-5">Weekly events</h2>
+<h2 id="weekly-events" class="mt-5 bg-body">Weekly events</h2>
   {% for week in events.weekly %}
   <div class="result-section">
-    <h3>{{ week[0] }}</h3>
+    <h3 class="sticky-top bg-body z-0 py-2">{{ week[0] }}</h3>
       {% if week[1][0] %}
         <ul>
           {% for event in week[1] %}
           <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup role="button" class="tag-badge badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+            {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
           </li>
           {% endfor %}
@@ -95,7 +95,7 @@ eleventyNavigation:
       {% for event in events.ongoing %}
       <li class="result-item">
         <strong>{{ event.name }}</strong>: {{ event.description}}
-        {% for tag in event.tags %}<sup role="button" class="tag-badge badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+        {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
         <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
       </li>
       {% endfor %}
