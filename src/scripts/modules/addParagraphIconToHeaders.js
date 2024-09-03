@@ -11,20 +11,15 @@ export default () => {
   
 
   // [...document.querySelectorAll("h2")].forEach((heading) => {
-  //   console.log(heading);
   //   const anchor = document.createElement("a");
-
   //   anchor.innerHTML = "¶";
   //   anchor.href = `#${heading.id}`;
   //   anchor.classList.add("pilcrow-link");
   //   // $span_pilcrow = $doc->createElement('span');
   //   // $span_pilcrow->setAttribute('class', 'pilcrow');
   //   // $span_pilcrow->nodeValue = '¶';
-
   //   heading.insertAdjacentElement("beforeend", anchor);
-
   //   // heading.after(anchor);
-
   //   // pilcrowLink.innerHTML += /* html */ `<span class="pilcrow">¶</span>`;
   // });
 };
