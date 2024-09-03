@@ -8,7 +8,7 @@ eleventyNavigation:
 
 <div class="p-5 mb-5 bg-body-tertiary rounded-bottom-3">
   <div class="container-fluid">
-    <h1 class="display-5 fw-bold">{{ site.title }}</h1>
+    <h1 class="text-body display-5 fw-bold">{{ site.title }}</h1>
     <p class="col-md-8 fs-5">
       <a href="/about/">Learn more about this project</a> or browse challenges below. 
     </p>
@@ -49,10 +49,10 @@ eleventyNavigation:
 </div>
 
 <div>
-  <h2 id="monthly-events" class="mt-3 bg-body">Monthly events</h2>
+  <h2 id="monthly-events" class="mt-3 bg-body text-body">Monthly events</h2>
   {% for month in events.monthly %}
   <div class="result-section">
-    <h3 class="sticky-top bg-body py-2">{{ month[0] }}</h3>
+    <h3 class="sticky-top text-body bg-body py-2">{{ month[0] }}</h3>
       {% if month[1][0] %}
         <ul>
           {% for event in month[1] %}
@@ -83,10 +83,10 @@ eleventyNavigation:
   {% endfor %}
 </div>
 <div>
-<h2 id="weekly-events" class="mt-5 bg-body">Weekly events</h2>
+<h2 id="weekly-events" class="mt-5 text-body bg-body">Weekly events</h2>
   {% for week in events.weekly %}
   <div class="result-section">
-    <h3 class="sticky-top bg-body py-2">{{ week[0] }}</h3>
+    <h3 class="sticky-top text-body bg-body py-2">{{ week[0] }}</h3>
       {% if week[1][0] %}
         <ul>
           {% for event in week[1] %}
@@ -115,7 +115,7 @@ eleventyNavigation:
       {% endif %}    
   </div>
   {% endfor %}
-<h2 id="ongoing-events" class="mt-5">Ongoing events</h2>
+<h2 id="ongoing-events" class="mt-5 text-body">Ongoing events</h2>
   <div class="result-section">
     <ul>
       {% for event in events.ongoing %}
