@@ -112,39 +112,39 @@
     "tags": ["maps", "drawing", "art"]
   },
   {
-    "name": "NAME",
-    "description": "DESCRIPTION",
+    "name": "5090 by FAWM",
+    "description": "write 50 songs in 90 days, from July 4 to October 1",
     "links": [
       {
-        "title": "",
-        "url": "URL"
+        "title": "fiftyninety.fawm.org",
+        "url": "https://fiftyninety.fawm.org/"
       }
     ],
-    "month": 0,
-    "tags": ["tag1"]
+    "month": 7,
+    "tags": ["music"]
   },
   {
-    "name": "NAME",
-    "description": "DESCRIPTION",
+    "name": "National Solo Album Month",
+    "description": "write, record, and release a whole album in November",
     "links": [
       {
-        "title": "",
-        "url": "URL"
+        "title": "nasoalmo.com",
+        "url": "https://nasoalmo.com/"
       }
     ],
-    "month": 0,
-    "tags": ["tag1"]
+    "month": 11,
+    "tags": ["music"]
   },
   {
-    "name": "NAME",
-    "description": "DESCRIPTION",
+    "name": "GENUARY",
+    "description": "write code that makes beautiful things",
     "links": [
       {
-        "title": "",
-        "url": "URL"
+        "title": "genuary.art",
+        "url": "https://genuary.art/"
       }
     ],
-    "month": 0,
-    "tags": ["tag1"]
+    "month": 1,
+    "tags": ["art", "coding"]
   }
 ]
