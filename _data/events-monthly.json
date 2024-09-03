@@ -209,6 +209,8 @@
       }
     ],
     "month": 12,
+    "start_date": "12-01",
+    "end_date": "12-25",
     "tags": ["coding"]
   }
 ]
