@@ -182,5 +182,17 @@
     ],
     "month": 9,
     "tags": ["general"]
+  },
+  {
+    "name": "Writing Month",
+    "description": "a writing challenge focused on values and community",
+    "links": [
+      {
+        "title": "writingmonth.org",
+        "url": "https://writingmonth.org/"
+      }
+    ],
+    "month": 9,
+    "tags": ["general"]
   }
 ]
