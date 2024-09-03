@@ -58,7 +58,7 @@ eleventyNavigation:
           {% for event in month[1] %}
           <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+            {% for tag in event.tags %}<sup role="button" class="tag-badge badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
           </li>
           {% endfor %}
@@ -79,7 +79,7 @@ eleventyNavigation:
           {% for event in week[1] %}
           <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+            {% for tag in event.tags %}<sup role="button" class="tag-badge badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
           </li>
           {% endfor %}
@@ -95,7 +95,7 @@ eleventyNavigation:
       {% for event in events.ongoing %}
       <li class="result-item">
         <strong>{{ event.name }}</strong>: {{ event.description}}
-        {% for tag in event.tags %}<sup class="badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+        {% for tag in event.tags %}<sup role="button" class="tag-badge badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
         <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
       </li>
       {% endfor %}

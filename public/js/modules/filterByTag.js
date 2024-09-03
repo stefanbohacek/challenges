@@ -1,0 +1,1 @@
+export default()=>{const e=document.getElementById("search-input");[...document.getElementsByClassName("tag-badge")].forEach((t=>{t.addEventListener("click",(n=>{e.value=t.innerText,e.dispatchEvent(new Event("input"))}))}))};//# sourceMappingURL=filterByTag.js.map
