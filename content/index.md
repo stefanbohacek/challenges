@@ -36,7 +36,7 @@ eleventyNavigation:
   </div>
 </div>
 
-<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+<div class="btn-toolbar mb-3 sticky-top bg-body py-4" role="toolbar" aria-label="Toolbar with button groups">
   <div class="btn-group me-2" role="group" aria-label="First group">
     <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
     <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
@@ -49,7 +49,7 @@ eleventyNavigation:
 </div>
 
 <div>
-  <h2 id="monthly-events" class="mt-5 sticky-top bg-body">Monthly events</h2>
+  <h2 id="monthly-events" class="mt-5">Monthly events</h2>
   {% for month in events.monthly %}
   <div class="result-section">
     <h3>{{ month[0] }}</h3>
@@ -70,7 +70,7 @@ eleventyNavigation:
   </div>
 </div>
 <div>
-<h2 id="weekly-events" class="mt-5 sticky-top bg-body">Weekly events</h2>
+<h2 id="weekly-events" class="mt-5">Weekly events</h2>
   {% for week in events.weekly %}
   <div class="result-section">
     <h3>{{ week[0] }}</h3>
@@ -89,7 +89,7 @@ eleventyNavigation:
       {% endif %}    
   </div>
   {% endfor %}
-<h2 id="ongoing-events" class="mt-5 sticky-top bg-body">Ongoing events</h2>
+<h2 id="ongoing-events" class="mt-5">Ongoing events</h2>
   <div class="result-section">
     <ul>
       {% for event in events.ongoing %}
