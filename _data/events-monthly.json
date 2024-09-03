@@ -1,7 +1,7 @@
 [
   {
     "name": "Blaugust",
-    "description": "write a blog post every day, and other challenges",
+    "description": "Write a blog post every day, and other challenges.",
     "links": [
       {
         "title": "aggronaut.com/2023/07/12/blaugust-2023-is-coming",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Jamuary",
-    "description": "create and share a song every day",
+    "description": "Create and share a song every day.",
     "links": [
       {
         "title": "jonathanmann.net/jamuary",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Looptober",
-    "description": "make a music loop every day",
+    "description": "Make a music loop every day.",
     "links": [
       {
         "title": "looptober.com",
@@ -37,7 +37,7 @@
   },
   {
     "name": "NaBoMaMo",
-    "description": "a month-long celebration of non-commercial botmaking",
+    "description": "A month-long celebration of non-commercial botmaking.",
     "links": [
       {
         "title": "github.com/tullyhansen/NaBoMaMo",
@@ -49,7 +49,7 @@
   },
   {
     "name": "NaNoWriMo",
-    "description": "draft an entire novel in just one month",
+    "description": "Draft an entire novel in just one month.",
     "links": [
       {
         "title": "nanowrimo.org",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Inktober",
-    "description": "a challenge to improve your inking skills",
+    "description": "A challenge to improve your inking skills.",
     "links": [
       {
         "title": "inktober.com",
@@ -77,7 +77,7 @@
   },
   {
     "name": "NaNoGenMo",
-    "description": "write code that generates a novel of 50k+ words",
+    "description": "Write code that generates a novel of 50k+ words.",
     "links": [
       {
         "title": "nanogenmo.github.io",
@@ -89,7 +89,7 @@
   },
   {
     "name": "#30DayMapChallenge",
-    "description": "create maps based on daily themes",
+    "description": "Create maps based on daily themes.",
     "links": [
       {
         "title": "30daymapchallenge.com",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Mapvember",
-    "description": "draw fictional maps for roleplaying games",
+    "description": "Draw fictional maps for roleplaying games.",
     "links": [
       {
         "title": "miskasmaps.com/mapvember",
@@ -113,7 +113,7 @@
   },
   {
     "name": "5090 by FAWM",
-    "description": "write 50 songs in 90 days, from July 4 to October 1",
+    "description": "Write 50 songs in 90 days, from July 4 to October 1.",
     "links": [
       {
         "title": "fiftyninety.fawm.org",
@@ -121,11 +121,13 @@
       }
     ],
     "month": 7,
+    "start_date": "07-04",
+    "end_date": "10-01",
     "tags": ["music"]
   },
   {
     "name": "National Solo Album Month",
-    "description": "write, record, and release a whole album in November",
+    "description": "Write, record, and release a whole album in November.",
     "links": [
       {
         "title": "nasoalmo.com",
@@ -137,7 +139,7 @@
   },
   {
     "name": "GENUARY",
-    "description": "write code that makes beautiful things",
+    "description": "Write code that makes beautiful things.",
     "links": [
       {
         "title": "genuary.art",
@@ -149,7 +151,7 @@
   },
   {
     "name": "Finish What You Started",
-    "description": "finishing existing works in progress from September 1st to October 31st",
+    "description": "Finishing existing works in progress from September 1st to October 31st.",
     "links": [
       {
         "title": "finishwhatyoustarted-event.tumblr.com",
@@ -157,11 +159,13 @@
       }
     ],
     "month": 9,
+    "start_date": "09-01",
+    "end_date": "10-31",
     "tags": ["general"]
   },
   {
     "name": "Small Web September",
-    "description": "make progress on your small web projects",
+    "description": "Make progress on your small web projects.",
     "links": [
       {
         "title": "smallweb.dreamwidth.org",
@@ -173,7 +177,7 @@
   },
   {
     "name": "Communal Creators",
-    "description": "band together to help each other start, work on, or finish a project in September and October",
+    "description": "Band together to help each other start, work on, or finish a project in September and October.",
     "links": [
       {
         "title": "communal-creators.dreamwidth.org",
@@ -185,7 +189,7 @@
   },
   {
     "name": "Writing Month",
-    "description": "a writing challenge focused on values and community",
+    "description": "A writing challenge focused on values and community.",
     "links": [
       {
         "title": "writingmonth.org",

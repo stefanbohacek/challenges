@@ -1,7 +1,7 @@
 [
   {
     "name": "Glitch Code Jams",
-    "description": "create web projects based on a monthly prompt",
+    "description": "Create web projects based on a monthly prompt.",
     "links": [
       {
         "title": "glitch.com/jams",
@@ -12,7 +12,7 @@
   },
   {
     "name": "#100DaysOfCode",
-    "description": "spend at least an hour coding for the next 100 days",
+    "description": "Spend at least an hour coding for the next 100 days.",
     "links": [
       {
         "title": "100daysofcode.com",
@@ -23,7 +23,7 @@
   },
   {
     "name": "The DS106 Daily Create",
-    "description": "small daily creative challenges in photography, drawing, audio, video, and writing",
+    "description": "Small daily creative challenges in photography, drawing, audio, video, and writing.",
     "links": [
       {
         "title": "daily.ds106.us",

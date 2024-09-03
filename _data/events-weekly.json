@@ -1,7 +1,7 @@
 [
   {
     "name": "Makeover Monday",
-    "description": "weekly data visualization challenges",
+    "description": "Weekly data visualization challenges.",
     "links": [
       {
         "title": "makeovermonday.co.uk",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Tidy Tuesday",
-    "description": "learn data science in the real world",
+    "description": "Learn data science in the real world.",
     "links": [
       {
         "title": "tidytuesday.com",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Music Weeklies Challenge",
-    "description": "compose a brand new original song in keeping with the theme and constraints",
+    "description": "Compose a brand new original song in keeping with the theme and constraints.",
     "links": [
       {
         "title": "musicweeklieschallenge.com",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Disquiet Junto",
-    "description": "weekly, fast-turnaround projects to compose, record, and share new music",
+    "description": "Weekly, fast-turnaround projects to compose, record, and share new music.",
     "links": [
       {
         "title": "Disquiet Junto F.A.Q.",

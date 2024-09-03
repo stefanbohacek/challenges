@@ -23,4 +23,11 @@ module.exports = {
     const dateObject = new Date(date);
     return dateObject.toUTCString();
   },
+  getCurrentYear() {
+    return new Date().getFullYear();
+  },
+  daysInMonth(month) {
+    console.log("DEBUG", month);
+    return new Date((new Date().getFullYear()), month, 0).getDate();
+  },
 };

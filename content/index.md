@@ -60,6 +60,19 @@ eleventyNavigation:
             <strong>{{ event.name }}</strong>: {{ event.description}}
             {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
+            <div class="mt-3">
+              <add-to-calendar-button
+                name="{{ event.name }}"
+                description="{{ event.description}}"
+                location="{{ event.links[0].url }}"
+                startDate="{{ event.start_date }}"
+                endDate="{{ event.end_date }}"
+                recurrence="yearly"
+                options="'Apple', 'Google', 'iCal', 'Microsoft365', 'MicrosoftTeams', 'Outlook.com', 'Yahoo'"
+                size="1"
+                hideCheckmark="true"
+              ></add-to-calendar-button>
+            </div>
           </li>
           {% endfor %}
         </ul>
@@ -81,6 +94,19 @@ eleventyNavigation:
             <strong>{{ event.name }}</strong>: {{ event.description}}
             {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
+            <div class="mt-3">
+              <add-to-calendar-button
+                name="{{ event.name }}"
+                description="{{ event.description}}"
+                location="{{ event.links[0].url }}"
+                startDate="{{ event.start_date }}"
+                endDate="{{ event.end_date }}"
+                recurrence="weekly"
+                options="'Apple', 'Google', 'iCal', 'Microsoft365', 'MicrosoftTeams', 'Outlook.com', 'Yahoo'"
+                size="1"
+                hideCheckmark="true"
+              ></add-to-calendar-button>
+            </div>
           </li>
           {% endfor %}
         </ul>
@@ -102,3 +128,4 @@ eleventyNavigation:
     </ul>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
