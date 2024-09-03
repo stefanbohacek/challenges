@@ -198,5 +198,17 @@
     ],
     "month": 9,
     "tags": ["writing"]
+  },
+  {
+    "name": "Advent of Code",
+    "description": "Small programming puzzles for a variety of skill sets and skill levels.",
+    "links": [
+      {
+        "title": "adventofcode.com",
+        "url": "https://adventofcode.com/"
+      }
+    ],
+    "month": 12,
+    "tags": ["coding"]
   }
 ]
