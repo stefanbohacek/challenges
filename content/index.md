@@ -44,7 +44,7 @@ eleventyNavigation:
   </div>
   <div class="input-group">
     <div class="input-group-text" id="btnGroupAddon">🔎</div>
-    <input id="search-input" type="text" class="form-control" placeholder="Description or #tag">
+    <input role="search" id="search-input" type="text" class="form-control" placeholder="Name, description, or #tag">
   </div>
 </div>
 
