@@ -42,7 +42,7 @@ eleventyNavigation:
     <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
     <a href="#ongoing-events" class="btn btn-outline-secondary">Ongoing</a>
   </div>
-  <div class="input-group">
+  <div class="input-group mt-3 mt-md-0">
     <div class="input-group-text" id="btnGroupAddon">🔎</div>
     <input type="search" id="search-input" type="text" class="form-control" placeholder="Description or #tag">
   </div>
