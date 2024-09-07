@@ -212,5 +212,17 @@
     "start_date": "12-01",
     "end_date": "12-25",
     "tags": ["coding"]
+  },
+  {
+    "name": "Codevember",
+    "description": "30 days of creative coding challenges.",
+    "links": [
+      {
+        "title": "codevember.org",
+        "url": "https://codevember.org/"
+      }
+    ],
+    "month": 11,
+    "tags": ["coding"]
   }
 ]
