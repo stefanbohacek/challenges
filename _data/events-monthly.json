@@ -266,5 +266,21 @@
     ],
     "month": 5,
     "tags": ["art"]
+  },
+  {
+    "name": "Mathober",
+    "description": "Explore math concepts through different mediums.",
+    "links": [
+      {
+        "title": "mathober.com",
+        "url": "https://mathober.com/"
+      },
+      {
+        "title": "fractalkitty.com",
+        "url": "https://fractalkitty.com/2024/09/10/mathober-2024/"
+      }
+    ],
+    "month": 10,
+    "tags": ["math", "code", "art", "writing", "poetry", "video"]
   }
 ]
