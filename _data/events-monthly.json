@@ -241,7 +241,7 @@
     "month": 2,
     "start_date": "02-01",
     "end_date": "02-01",
-    "tags": ["art", "comic"]
+    "tags": ["art", "drawing", "comic"]
   },
   {
     "name": "PleinAirpril",
@@ -253,7 +253,7 @@
       }
     ],
     "month": 4,
-    "tags": ["art"]
+    "tags": ["art", "painting"]
   },
   {
     "name": "Mermay",
