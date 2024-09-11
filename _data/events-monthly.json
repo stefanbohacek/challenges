@@ -224,5 +224,23 @@
     ],
     "month": 11,
     "tags": ["coding"]
-  }
+  },
+  {
+    "name": "Hourly Comic Day",
+    "description": "Draw a comic every hour during February 1st.",
+    "links": [
+      {
+        "title": "hourly comic day: how it works",
+        "url": "https://jabberworks.livejournal.com/690749.html"
+      },
+      {
+        "title": "So Be It! See to It!",
+        "url": "https://might-could.com/essays/so-be-it-see-to-it/"
+      }
+    ],
+    "month": 2,
+    "start_date": "02-01",
+    "end_date": "02-01",
+    "tags": ["art", "comic"]
+  }  
 ]
