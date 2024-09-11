@@ -254,5 +254,17 @@
     ],
     "month": 4,
     "tags": ["art"]
+  },
+  {
+    "name": "Mermay",
+    "description": "Month-long celebration of creativity, community and above all… mermaids!",
+    "links": [
+      {
+        "title": "mermay.com",
+        "url": "https://www.mermay.com/"
+      }
+    ],
+    "month": 5,
+    "tags": ["art"]
   }
 ]
