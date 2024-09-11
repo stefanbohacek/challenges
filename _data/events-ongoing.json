@@ -31,5 +31,16 @@
       }
     ],
     "tags": ["photography", "drawing", "audio", "video", "writing"]
+  },
+  {
+    "name": "Weeklybeats",
+    "description": "Year-long music project in which artists compose and publicly release 1 song a week.",
+    "links": [
+      {
+        "title": "weeklybeats.com",
+        "url": "https://weeklybeats.com/"
+      }
+    ],
+    "tags": ["music"]
   }  
 ]
