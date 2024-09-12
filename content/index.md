@@ -10,7 +10,7 @@ eleventyNavigation:
   <div class="container-fluid">
     <h1 class="text-body display-5 fw-bold">{{ site.title }}</h1>
     <p class="col-md-8 fs-5">
-      <a href="/about/">Learn more about this project</a> or browse challenges below. 
+      Created by <a rel="me" href="https://stefanbohacek.online/@stefan">Stefan Bohacek</a>.<a href="/about/">Learn more about this project</a> or browse challenges below. 
     </p>
     <form class="fsb-prompt">
       <label>Share this page from your fediverse server</label>
