@@ -92,10 +92,25 @@ let weeklyEvents = sortArrayOfObjectsByKey(
 );
 
 weeklyEvents.forEach((event) => {
-  const theDate = `${getCurrentYear()}-${String(getCurrentMonth()).padStart(
-    2,
-    "0"
-  )}-${String(getCurrentDay()).padStart(2, "0")}`;
+  const today = new Date();
+  let todayDay = today.getDay(); // 3
+
+  if (todayDay === 0) {
+    todayDay = 7;
+  }
+
+  let dayOffset = event.day - todayDay + 1;
+
+  if (dayOffset < 0) {
+    dayOffset += 7;
+  }
+
+  const targetDate = new Date(
+    today.getTime() + dayOffset * 24 * 60 * 60 * 1000
+  );
+  const theDate = `${targetDate.getFullYear()}-${String(
+    targetDate.getMonth() + 1
+  ).padStart(2, "0")}-${String(targetDate.getDay()).padStart(2, "0")}`;
   event.start_date = theDate;
   event.end_date = theDate;
 });
