@@ -63,7 +63,7 @@ eleventyNavigation:
             <div class="mt-3">
               <add-to-calendar-button
                 name="{{ event.name }}"
-                description="{{ event.description}}"
+                description="{{ event.description}}[br]{% for link in event.links %}[br]- {{link.url}}{% endfor %}"
                 location="{{ event.links[0].url }}"
                 startDate="{{ event.start_date }}"
                 endDate="{{ event.end_date }}"
