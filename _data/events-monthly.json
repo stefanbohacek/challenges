@@ -176,6 +176,18 @@
     "tags": ["web", "coding"]
   },
   {
+    "name": "Weird Web October",
+    "description": "Try and make a website every day of October.",
+    "links": [
+      {
+        "title": "weirdweboctober.website",
+        "url": "https://weirdweboctober.website/"
+      }
+    ],
+    "month": 10,
+    "tags": ["web", "coding"]
+  },
+  {
     "name": "Communal Creators",
     "description": "Band together to help each other start, work on, or finish a project in September and October.",
     "links": [
