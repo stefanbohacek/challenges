@@ -41,7 +41,7 @@ const getCurrentYear = () => {
 };
 
 const getCurrentMonth = () => {
-  return new Date().getMonth() + 1;
+  return new Date().getMonth();
 };
 
 const getCurrentDay = () => {
@@ -130,7 +130,18 @@ let ongoingEvents = sortArrayOfObjectsByKey(
   "name"
 );
 
+const currentMonth = getCurrentMonth();
+let currentDay = getCurrentDay() - 1;
+
+if (currentDay < 0) {
+  currentDay = 6;
+}
+
 const data = {
+  currentMonth,
+  currentMonthLabel: months[currentMonth],
+  currentDay,
+  currentDayLabel: weekDays[currentDay],
   monthly: monthlyEventsList,
   weekly: weeklyEventsList,
   ongoing: ongoingEvents,

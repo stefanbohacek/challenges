@@ -37,10 +37,12 @@ eleventyNavigation:
 </div>
 
 <div class="btn-toolbar mb-3 sticky-top bg-body py-2 py-4" role="toolbar" aria-label="Toolbar with button groups">
-  <div class="btn-group me-2" role="group" aria-label="First group">
+  <div class="btn-group btn-group-sm me-2" role="group" aria-label="First group">
     <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
     <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
     <a href="#ongoing-events" class="btn btn-outline-secondary">Ongoing</a>
+    <a href="#month-{{events.currentMonthLabel}}" class="btn btn-outline-secondary">{{events.currentMonthLabel}}</a>
+    <a href="#day-{{events.currentDayLabel}}" class="btn btn-outline-secondary">{{events.currentDayLabel}}</a>
   </div>
   <div class="input-group mt-3 mt-md-0">
     <div class="input-group-text" id="btnGroupAddon">🔎</div>
@@ -52,7 +54,7 @@ eleventyNavigation:
   <h2 id="monthly-events" class="mt-3 bg-body text-body">Monthly events</h2>
   {% for month in events.monthly %}
   <div class="result-section">
-    <h3 class="sticky-top text-body bg-body py-2">{{ month[0] }}</h3>
+    <h3 class="sticky-top text-body bg-body py-2" id="month-{{ month[0] }}">{{ month[0] }}</h3>
       {% if month[1][0] %}
         <ul>
           {% for event in month[1] %}
@@ -86,7 +88,7 @@ eleventyNavigation:
 <h2 id="weekly-events" class="mt-5 text-body bg-body">Weekly events</h2>
   {% for week in events.weekly %}
   <div class="result-section">
-    <h3 class="sticky-top text-body bg-body py-2">{{ week[0] }}</h3>
+    <h3 id="day-{{ week[0] }}" class="sticky-top text-body bg-body py-2">{{ week[0] }}</h3>
       {% if week[1][0] %}
         <ul>
           {% for event in week[1] %}
