@@ -3,6 +3,7 @@ import onReady from "./modules/onReady.js";
 import backToTop from "./modules/backToTop.js";
 import handleSearch from "./modules/handleSearch.js";
 import filterByTag from "./modules/filterByTag.js";
+import addCurrentMonthDayLinks from "./modules/addCurrentMonthDayLinks.js";
 // import matomo from "./modules/matomo.js";
 // import konami from "./modules/konami.js";
 // import addParagraphIconToHeaders from "./modules/addParagraphIconToHeaders.js";
@@ -12,6 +13,7 @@ onReady(() => {
   backToTop();
   handleSearch();
   filterByTag();
+  addCurrentMonthDayLinks();
   // addParagraphIconToHeaders();
   // matomo();
   // konami();

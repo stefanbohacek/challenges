@@ -37,12 +37,10 @@ eleventyNavigation:
 </div>
 
 <div class="btn-toolbar mb-3 sticky-top bg-body py-2 py-4" role="toolbar" aria-label="Toolbar with button groups">
-  <div class="btn-group btn-group-sm me-2" role="group" aria-label="First group">
+  <div id="quicklinks" class="btn-group btn-group-sm me-2" role="group" aria-label="First group">
     <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
     <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
     <a href="#ongoing-events" class="btn btn-outline-secondary">Ongoing</a>
-    <a href="#month-{{events.currentMonthLabel}}" class="btn btn-outline-secondary">{{events.currentMonthLabel}}</a>
-    <a href="#day-{{events.currentDayLabel}}" class="btn btn-outline-secondary">{{events.currentDayLabel}}</a>
   </div>
   <div class="input-group mt-3 mt-md-0">
     <div class="input-group-text" id="btnGroupAddon">🔎</div>

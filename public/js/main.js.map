@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","names":["onReady","backToTop","handleSearch","filterByTag"],"sources":["main.js"],"mappings":"OAAOA,YAAa,8BAEbC,cAAe,gCACfC,iBAAkB,mCAClBC,gBAAiB,2BAKxBH,SAAQ,KAENC,YACAC,eACAC,aAAa","ignoreList":[]}
+{"version":3,"file":"main.js","names":["onReady","backToTop","handleSearch","filterByTag","addCurrentMonthDayLinks"],"sources":["main.js"],"mappings":"OAAOA,YAAa,8BAEbC,cAAe,gCACfC,iBAAkB,mCAClBC,gBAAiB,kCACjBC,4BAA6B,uCAKpCJ,SAAQ,KAENC,YACAC,eACAC,cACAC,yBAAyB","ignoreList":[]}
