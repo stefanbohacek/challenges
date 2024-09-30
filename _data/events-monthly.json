@@ -294,5 +294,17 @@
     ],
     "month": 10,
     "tags": ["math", "coding", "art", "writing", "poetry", "video"]
+  },
+  {
+    "name": "RetroChallenge",
+    "description": "Do something fun or interesting with vintage tech and let the world know.",
+    "links": [
+      {
+        "title": "retrochallenge.org",
+        "url": "https://www.retrochallenge.org/"
+      }
+    ],
+    "month": 10,
+    "tags": ["retro", "computers", "hardware"]
   }
 ]
