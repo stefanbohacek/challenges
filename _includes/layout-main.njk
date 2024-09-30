@@ -50,6 +50,9 @@ title: Home
                   <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.key }}</a>
                 </li>
               {% endfor %}
+                <li class="nav-item">
+                  <a href="https://mastodon.social/@challenges" class="nav-link link-secondary" rel="me">@challenges</a>
+                </li>
             </ul>
           </div>
         </nav>
