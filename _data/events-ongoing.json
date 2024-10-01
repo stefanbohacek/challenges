@@ -53,5 +53,16 @@
       }
     ],
     "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "IndieWeb Carnival",
+    "description": "Blogging about topics related to the IndieWeb.",
+    "links": [
+      {
+        "title": "IndieWeb Carnival on indieweb.org",
+        "url": "https://indieweb.org/IndieWeb_Carnival"
+      }
+    ],
+    "tags": ["writing", "blogging", "internet", "indieweb"]
   }
 ]
