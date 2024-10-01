@@ -42,5 +42,16 @@
       }
     ],
     "tags": ["music"]
-  }  
+  },
+  {
+    "name": "100 Days To Offload",
+    "description": "Can you publish 100 posts on your blog in a year?",
+    "links": [
+      {
+        "title": "100daystooffload.com",
+        "url": "https://100daystooffload.com/"
+      }
+    ],
+    "tags": ["writing", "blogging"]
+  }
 ]

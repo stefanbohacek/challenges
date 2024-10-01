@@ -330,5 +330,69 @@
     ],
     "month": 10,
     "tags": ["coding", "opensource"]
+  },
+  {
+    "name": "WeblogPoMo",
+    "description": "Choose a guiding topic for the month, something that will help you feel propelled to post on your blog.",
+    "links": [
+      {
+        "title": "WeblogPoMo 2024",
+        "url": "https://weblog.anniegreens.lol/weblog-posting-month-2024"
+      }
+    ],
+    "month": 5,
+    "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "Junited",
+    "description": "A fun little blogging adventure that's all about sharing.",
+    "links": [
+      {
+        "title": "Junited: How & Who?",
+        "url": "https://birming.com/junited-how-who/"
+      }
+    ],
+    "month": 6,
+    "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "July Reply",
+    "description": "A follow-up to Junited: Instead of just passing “secret notes” to each other, let’s build relationships.",
+    "links": [
+      {
+        "title": "July Reply",
+        "url": "https://birming.com/july-reply-blog/"
+      }
+    ],
+    "month": 7,
+    "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "SeptemBest",
+    "description": "A \"challenge\" where quality comes first – and only.",
+    "links": [
+      {
+        "title": "SeptemBest: A Quality Blog Challenge",
+        "url": "https://birming.com/septembest-blog-challenge/"
+      }
+    ],
+    "month": 9,
+    "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "NaBloPoMo",
+    "description": "Writing a blog post every day for a month.",
+    "links": [
+      {
+        "title": "SeptemBest: A Quality Blog Challenge",
+        "url": "https://theinbetweenismine.com/nablopomo/"
+      },
+      {
+        "title": "History of NaBloPoMo",
+        "url": "https://nablopomoguideunofficial.blogspot.com/2011/11/history-of-nablopomo.html"
+      }
+    ],
+    "month": 9,
+    "tags": ["writing", "blogging"]
   }
 ]
