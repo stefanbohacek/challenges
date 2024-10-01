@@ -306,5 +306,17 @@
     ],
     "month": 10,
     "tags": ["retro", "computers", "hardware"]
+  },
+  {
+    "name": "#Crawltober",
+    "description": "A flexible creative challenge for appreciators of creepy crawlies and spooky critters.",
+    "links": [
+      {
+        "title": "mastoartsocial.neocities.org",
+        "url": "https://mastoartsocial.neocities.org/resources#crawltober"
+      }
+    ],
+    "month": 10,
+    "tags": ["drawing", "painting", "art", "photography", "writing", "poetry"]
   }
 ]
