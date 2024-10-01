@@ -318,5 +318,17 @@
     ],
     "month": 10,
     "tags": ["drawing", "painting", "art", "photography", "writing", "poetry"]
+  },
+  {
+    "name": "Hacktoberfest",
+    "description": "A month-long celebration of all things open-source.",
+    "links": [
+      {
+        "title": "hacktoberfest.com",
+        "url": "https://hacktoberfest.com/"
+      }
+    ],
+    "month": 10,
+    "tags": ["coding", "opensource"]
   }
 ]
