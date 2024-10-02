@@ -49,7 +49,8 @@ eleventyNavigation:
 </div>
 
 <div>
-  <h2 id="monthly-events" class="mt-3 bg-body text-body">Monthly events</h2>
+  <div id="monthly-events" class="mt-n5 position-absolute"></div>
+  <h2 class="mt-3 bg-body text-body">Monthly events</h2>
   {% for month in events.monthly %}
   <div id="month-{{ month[0] }}" class="mt-n5 position-absolute"></div>
   <div class="result-section">
@@ -83,8 +84,9 @@ eleventyNavigation:
   </div>
   {% endfor %}
 </div>
+<div id="weekly-events" class="mt-n5 position-absolute"></div>
 <div>
-<h2 id="weekly-events" class="mt-5 text-body bg-body">Weekly events</h2>
+<h2 class="mt-5 text-body bg-body">Weekly events</h2>
   {% for week in events.weekly %}
   <div id="day-{{ week[0] }}" class="mt-n5 position-absolute"></div>
   <div class="result-section">
@@ -117,7 +119,8 @@ eleventyNavigation:
       {% endif %}    
   </div>
   {% endfor %}
-<h2 id="ongoing-events" class="mt-5 text-body">Ongoing events</h2>
+<div id="ongoing-events" class="mt-n5 position-absolute"></div>
+<h2 class="mt-5 text-body">Ongoing events</h2>
   <div class="result-section">
     <ul>
       {% for event in events.ongoing %}
