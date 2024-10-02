@@ -20,7 +20,15 @@ export default (fn) => {
       );
 
       allResults.forEach((result) => {
-        if (!result.innerText.includes(searchInput.value)) {
+        if (
+          result.innerText &&
+          searchInput.value &&
+          result.innerText.trim() &&
+          searchInput.value.trim() &&
+          !result.innerText
+            .toLowerCase()
+            .includes(searchInput.value.toLowerCase())
+        ) {
           result.classList.add("d-none");
         }
       });
