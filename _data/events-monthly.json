@@ -394,5 +394,17 @@
     ],
     "month": 11,
     "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "LOLtober",
+    "description": "Write a single post about a special Halloween or “spooky season” memory.",
+    "links": [
+      {
+        "title": "LOLtober on home.omg.lol",
+        "url": "https://home.omg.lol/challenges#loltober"
+      }
+    ],
+    "month": 10,
+    "tags": ["writing", "blogging"]
   }
 ]
