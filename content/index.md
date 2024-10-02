@@ -48,8 +48,8 @@ eleventyNavigation:
   </div>
 </div>
 
-<div>
-  <div id="monthly-events" class="mt-n5 position-absolute"></div>
+<div id="monthly-events" class="mt-n5 position-absolute"></div>
+<div class="mt-4">
   <h2 class="mt-3 bg-body text-body">Monthly events</h2>
   {% for month in events.monthly %}
   <div id="month-{{ month[0] }}" class="mt-n5 position-absolute"></div>
