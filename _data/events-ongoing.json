@@ -64,5 +64,20 @@
       }
     ],
     "tags": ["writing", "blogging", "internet", "indieweb"]
+  },
+  {
+    "name": "Pixel Dailies",
+    "description": "Daily themed pixel art challenges.",
+    "links": [
+      {
+        "title": "@pixel_dailies on Mastodon",
+        "url": "https://mastodon.art/@pixel_dailies"
+      },
+      {
+        "title": "List of daily challenges",
+        "url": "https://mastodon.art/@pixel_dailies/tagged/pixel_dailies"
+      }
+    ],
+    "tags": ["art", "pixel-art"]
   }
 ]
