@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="px-4 py-5 mb-5 bg-body-tertiary rounded-bottom" style="margin-top: -8px;">
+<div class="px-2 px-md-4 py-5 mb-5 bg-body-tertiary rounded-bottom" style="margin-top: -8px;">
   <div class="container-fluid">
     <h1 class="text-body display-5 fw-bold">{{ site.title }}</h1>
     <p class="col-md-8 fs-5">
