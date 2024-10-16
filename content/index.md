@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="p-5 mb-5 bg-body-tertiary rounded-bottom" style="margin-top: -8px;">
+<div class="px-4 py-5 mb-5 bg-body-tertiary rounded-bottom" style="margin-top: -8px;">
   <div class="container-fluid">
     <h1 class="text-body display-5 fw-bold">{{ site.title }}</h1>
     <p class="col-md-8 fs-5">
@@ -36,7 +36,7 @@ eleventyNavigation:
   </div>
 </div>
 
-<div class="btn-toolbar mb-3 sticky-top bg-body py-2 py-4" role="toolbar" aria-label="Toolbar with button groups">
+<div class="btn-toolbar mb-3 sticky-top bg-body px-md-4 py-4" role="toolbar" aria-label="Toolbar with button groups">
   <div id="quicklinks" class="btn-group btn-group-sm me-2" role="group" aria-label="First group">
     <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
     <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
@@ -49,7 +49,7 @@ eleventyNavigation:
 </div>
 
 <div id="monthly-events" class="mt-n5 position-absolute"></div>
-<div class="mt-4">
+<div class="mt-4 px-md-4">
   <h2 class="mt-3 bg-body text-body">Monthly events</h2>
   {% for month in events.monthly %}
   <div id="month-{{ month[0] }}" class="mt-n5 position-absolute"></div>
