@@ -85,8 +85,8 @@ eleventyNavigation:
   {% endfor %}
 </div>
 <div id="weekly-events" class="mt-n5 position-absolute"></div>
-<div>
-<h2 class="mt-5 text-body bg-body">Weekly events</h2>
+<div class="mt-4 px-md-4">
+<h2 class="mt-3 text-body bg-body">Weekly events</h2>
   {% for week in events.weekly %}
   <div id="day-{{ week[0] }}" class="mt-n5 position-absolute"></div>
   <div class="result-section">
@@ -119,18 +119,21 @@ eleventyNavigation:
       {% endif %}    
   </div>
   {% endfor %}
+</div>
 <div id="ongoing-events" class="mt-n5 position-absolute"></div>
-<h2 class="mt-5 text-body">Ongoing events</h2>
-  <div class="result-section">
-    <ul>
-      {% for event in events.ongoing %}
-      <li class="result-item">
-        <strong>{{ event.name }}</strong>: {{ event.description}}
-        {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
-        <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
-      </li>
-      {% endfor %}
-    </ul>
+<div class="mt-4 px-md-4">
+  <h2 class="mt-5 text-body">Ongoing events</h2>
+    <div class="result-section">
+      <ul>
+        {% for event in events.ongoing %}
+        <li class="result-item">
+          <strong>{{ event.name }}</strong>: {{ event.description}}
+          {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+          <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
