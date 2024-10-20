@@ -406,5 +406,17 @@
     ],
     "month": 10,
     "tags": ["writing", "blogging"]
-  }
+  },
+  {
+    "name": "Novembeat",
+    "description": "An informal challenge to record one piece of music every day in November.",
+    "links": [
+      {
+        "title": "novembeat.com",
+        "url": "https://novembeat.com/"
+      }
+    ],
+    "month": 11,
+    "tags": ["music"]
+  }  
 ]
