@@ -418,5 +418,17 @@
     ],
     "month": 11,
     "tags": ["music"]
+  },
+  {
+    "name": "March MODOK Madness",
+    "description": "Spend the month of March making art tributes to the Marvel Comics supervillain MODOK.",
+    "links": [
+      {
+        "title": "MARCH MODOK MADNESS",
+        "url": "https://marchmodokmadness.blogspot.com/"
+      }
+    ],
+    "month": 3,
+    "tags": ["art", "drawing", "painting"]
   }  
 ]
