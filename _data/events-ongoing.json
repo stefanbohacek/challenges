@@ -79,5 +79,31 @@
       }
     ],
     "tags": ["art", "pixel-art"]
+  },
+  {
+    "name": "That Monthly Zine Project",
+    "description": "An inclusive community of zinesters making monthly zines.",
+    "links": [
+      {
+        "title": "@mozipro on Instagram",
+        "url": "https://www.instagram.com/mozipro/"
+      },
+      {
+        "title": "That Monthly Zine Project on Linktree",
+        "url": "https://linktr.ee/mozipro"
+      }
+    ],
+    "tags": ["zine", "art", "writing"]
+  },
+  {
+    "name": "36 Days of Type",
+    "description": "Challenging participants to design a letter or number each day for 36 consecutive days.",
+    "links": [
+      {
+        "title": "36daysoftype.com",
+        "url": "https://www.36daysoftype.com/"
+      }
+    ],
+    "tags": ["typography", "design", "art"]
   }
 ]

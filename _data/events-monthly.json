@@ -430,5 +430,17 @@
     ],
     "month": 3,
     "tags": ["art", "drawing", "painting"]
+  },
+  {
+    "name": "Fun-A-Day",
+    "description": "Pick an art project, do it every day in January, and show your work in a group art show in February.",
+    "links": [
+      {
+        "title": "artclash.com",
+        "url": "https://artclash.com/"
+      }
+    ],
+    "month": 1,
+    "tags": ["art", "drawing", "painting"]
   }  
 ]
