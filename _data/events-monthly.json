@@ -442,5 +442,17 @@
     ],
     "month": 1,
     "tags": ["art", "drawing", "painting"]
-  }  
+  },
+  {
+    "name": "March Meta Matters Challenge",
+    "description": "Annual event every March dedicated to archiving fandom metacommentary.",
+    "links": [
+      {
+        "title": "The MMM Challenge home page",
+        "url": "https://marchmetamatterschallenge.dreamwidth.org/"
+      }
+    ],
+    "month": 3,
+    "tags": ["writing", "fandom", "archiving"]
+  }
 ]
