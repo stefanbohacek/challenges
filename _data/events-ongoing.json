@@ -1,4 +1,15 @@
 [
+    {
+    "name": "Sunday Sites",
+    "description": "Write HTML and socialize, one Sunday a month.",
+    "links": [
+      {
+        "title": "sundaysites.cafe",
+        "url": "https://sundaysites.cafe/"
+      }
+    ],
+    "tags": ["web"]
+  },
   {
     "name": "Glitch Code Jams",
     "description": "Create web projects based on a monthly prompt.",
