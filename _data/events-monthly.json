@@ -48,18 +48,6 @@
     "tags": ["bots", "coding"]
   },
   {
-    "name": "NaNoWriMo",
-    "description": "Draft an entire novel in just one month.",
-    "links": [
-      {
-        "title": "nanowrimo.org",
-        "url": "https://nanowrimo.org/national-novel-writing-month"
-      }
-    ],
-    "month": 11,
-    "tags": ["writing"]
-  },
-  {
     "name": "Inktober",
     "description": "A challenge to improve your inking skills.",
     "links": [
